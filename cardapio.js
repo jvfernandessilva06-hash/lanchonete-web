@@ -1,0 +1,1 @@
+console.log("Cardápio carregado com sucesso");
