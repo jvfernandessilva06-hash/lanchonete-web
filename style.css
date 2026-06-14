@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+header {
+  background: #d62828;
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fcbf49;
+}
+
+#cardapio {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#lista-cardapio {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produto {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #d62828;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
